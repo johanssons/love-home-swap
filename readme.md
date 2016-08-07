@@ -13,9 +13,9 @@ You must also run the app in a server environment. I have used Laravel Valet whi
 
 1. To get things started please clone my repository to your local environment `git clone https://github.com/johanssons/love-home-swap.git (FOLDER NAME)`
 2. Copy `.env.example` to `.env`
-3. `php artisan key:generate`
-4. `composer install`
-5. `npm install`
+3. `composer install`
+4. `npm install`
+5. `php artisan key:generate`
 
 ## Testing
 
