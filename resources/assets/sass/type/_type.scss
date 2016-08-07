@@ -1,0 +1,51 @@
+@include breakpoint(small up){
+	@for $i from 1 through 6{
+		h#{$i}{
+			font-family: 'Lato', sans-serif;
+			margin-top: 0;
+			font-weight: 400;
+
+			small {
+				font-size: 70%;
+				font-weight: 300;
+				text-transform: initial;
+				display: block;
+			}
+		}
+	}
+
+	h1 {
+		font-size: 1.2em;
+		line-height: 2;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+
+	h3 {
+		font-size: 0.95em;
+	}
+
+	p, li {
+		font-size: 0.9em;
+	}
+}
+
+@include breakpoint(xlarge up){
+	h1 {
+		font-size: 1.4em;
+	}
+
+	h2 {
+		font-size: 1.15em;
+	}
+
+	h3 {
+		font-size: 1.05em;
+	}
+
+	p, li {
+		font-size: 0.95em;
+	}
+}

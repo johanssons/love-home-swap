@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "browserify-shim": "^3.8.9",
+    "laravel-elixir-browserify": "^0.8.1"
+  },
+  "browser": {
+    "jquery": "./node_modules/foundation-sites/node_modules/jquery/dist/jquery.min.js",
+    "foundation": "./node_modules/foundation-sites/dist/foundation.min.js"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.0.0",
+    "foundation-sites": "6.0.5",
+    "laravel-elixir": "^4.0.0"
+  },
+  "browserify-shim": {
+    "jquery": "$",
+    "modernizr": "global:Modernizr"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  }
+}

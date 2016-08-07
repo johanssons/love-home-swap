@@ -1,0 +1,20 @@
+@include breakpoint(small up){
+	header {
+		padding: 2em 0;
+		background: $blue;
+		color: $white;
+
+		> .row {
+			@include flex;
+			@include flex-middle;
+		}
+
+		h1 {
+			text-transform: uppercase;
+
+			small {
+				text-transform: initial;
+			}
+		}
+	}
+}

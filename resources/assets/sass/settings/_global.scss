@@ -1,0 +1,17 @@
+@include breakpoint(small up){
+	body {
+		background: lighten(grey, 40%);
+	}
+
+	.row {
+		max-width: 45rem;
+	}
+
+	section {
+		> .row {
+			margin-top: 1rem;
+			padding: 1rem 0;
+			background: $white;
+		}
+	}
+}
